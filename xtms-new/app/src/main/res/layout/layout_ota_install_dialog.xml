@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:padding="10.0dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/title"
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="30.0dp"
+            android:gravity="center"
+            android:text="@string/prompt"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+
+            <TextView
+                android:id="@+id/message"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/otarequestupdata"
+                android:gravity="center"
+                android:lineSpacingMultiplier="1.5"
+                android:minHeight="40.0dp"
+                android:paddingBottom="15.0dp"
+                android:paddingLeft="20.0dp"
+                android:paddingRight="20.0dp"
+                android:paddingTop="15.0dp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.0px"
+            android:background="#ffd0d0d0" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60.0dp"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/positiveButton"
+                android:textSize="15sp"
+                android:layout_width="114.0dp"
+                android:layout_height="40.0dp"
+                android:background="@drawable/selector_button_update"
+                android:gravity="center"
+                android:text="@string/ok" />
+
+            <Button
+                android:id="@+id/negativeButton"
+                android:textSize="15sp"
+                android:layout_width="114.0dp"
+                android:layout_height="40.0dp"
+                android:layout_marginLeft="20.0dp"
+                android:background="@drawable/selector_button_update"
+                android:gravity="center"
+                android:text="@string/cancel" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

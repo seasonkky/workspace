@@ -1,0 +1,965 @@
+[
+  {
+    "cn_name": "安哥拉",
+    "countryId": "0244",
+    "en_name": "Angola"
+  },
+  {
+    "cn_name": "阿富汗",
+    "countryId": "93",
+    "en_name": "Afghanistan"
+  },
+  {
+    "cn_name": "阿尔巴尼亚",
+    "countryId": "335",
+    "en_name": "Albania"
+  },
+  {
+    "cn_name": "阿尔及利亚",
+    "countryId": "213",
+    "en_name": "Algeria"
+  },
+  {
+    "cn_name": "安道尔共和国",
+    "countryId": "376",
+    "en_name": "Andorra"
+  },
+  {
+    "cn_name": "安圭拉岛",
+    "countryId": "1254",
+    "en_name": "Anguilla"
+  },
+  {
+    "cn_name": "安提瓜和巴布达",
+    "countryId": "1268",
+    "en_name": "Antigua and Barbuda"
+  },
+  {
+    "cn_name": "阿根廷",
+    "countryId": "54",
+    "en_name": "Argentina"
+  },
+  {
+    "cn_name": "亚美尼亚",
+    "countryId": "374",
+    "en_name": "Armenia"
+  },
+  {
+    "cn_name": "阿森松",
+    "countryId": "247",
+    "en_name": "Ascension"
+  },
+  {
+    "cn_name": "澳大利亚",
+    "countryId": "61",
+    "en_name": "Australia"
+  },
+  {
+    "cn_name": "奥地利",
+    "countryId": "43",
+    "en_name": "Austria"
+  },
+  {
+    "cn_name": "阿塞拜疆",
+    "countryId": "994",
+    "en_name": "Azerbaijan"
+  },
+  {
+    "cn_name": "巴哈马",
+    "countryId": "1242",
+    "en_name": "Bahamas"
+  },
+  {
+    "cn_name": "巴林",
+    "countryId": "973",
+    "en_name": "Bahrain"
+  },
+  {
+    "cn_name": "孟加拉国",
+    "countryId": "880",
+    "en_name": "Bangladesh"
+  },
+  {
+    "cn_name": "巴巴多斯",
+    "countryId": "1246",
+    "en_name": "Barbados"
+  },
+  {
+    "cn_name": "白俄罗斯",
+    "countryId": "375",
+    "en_name": "Belarus"
+  },
+  {
+    "cn_name": "比利时",
+    "countryId": "32",
+    "en_name": "Belgium"
+  },
+  {
+    "cn_name": "伯利兹",
+    "countryId": "501",
+    "en_name": "Belize"
+  },
+  {
+    "cn_name": "贝宁",
+    "countryId": "229",
+    "en_name": "Benin"
+  },
+  {
+    "cn_name": "百慕大群岛",
+    "countryId": "1441",
+    "en_name": "Bermuda Is"
+  },
+  {
+    "cn_name": "玻利维亚",
+    "countryId": "591",
+    "en_name": "Bolivia"
+  },
+  {
+    "cn_name": "博茨瓦纳",
+    "countryId": "267",
+    "en_name": "Botswana"
+  },
+  {
+    "cn_name": "巴西",
+    "countryId": "55",
+    "en_name": "Brazil"
+  },
+  {
+    "cn_name": "文莱",
+    "countryId": "673",
+    "en_name": "Brunei"
+  },
+  {
+    "cn_name": "保加利亚",
+    "countryId": "359",
+    "en_name": "Bulgaria"
+  },
+  {
+    "cn_name": "布基纳法索",
+    "countryId": "226",
+    "en_name": "Burkina Faso"
+  },
+  {
+    "cn_name": "缅甸",
+    "countryId": "95",
+    "en_name": "Burma"
+  },
+  {
+    "cn_name": "布隆迪",
+    "countryId": "257",
+    "en_name": "Burundi"
+  },
+  {
+    "cn_name": "喀麦隆",
+    "countryId": "237",
+    "en_name": "Cameroon"
+  },
+  {
+    "cn_name": "加拿大",
+    "countryId": "1",
+    "en_name": "Canada"
+  },
+  {
+    "cn_name": "开曼群岛",
+    "countryId": "1345",
+    "en_name": "Cayman Is"
+  },
+  {
+    "cn_name": "中非共和国",
+    "countryId": "236",
+    "en_name": "Central African Republic"
+  },
+  {
+    "cn_name": "乍得",
+    "countryId": "235",
+    "en_name": "Chad"
+  },
+  {
+    "cn_name": "智利",
+    "countryId": "56",
+    "en_name": "Chile"
+  },
+  {
+    "countryCode": "CN",
+    "cn_name": "中国",
+    "countryId": "86",
+    "en_name": "China"
+  },
+  {
+    "cn_name": "哥伦比亚",
+    "countryId": "57",
+    "en_name": "Colombia"
+  },
+  {
+    "cn_name": "刚果",
+    "countryId": "242",
+    "en_name": "Congo"
+  },
+  {
+    "cn_name": "库克群岛",
+    "countryId": "682",
+    "en_name": "Cook Is"
+  },
+  {
+    "cn_name": "哥斯达黎加",
+    "countryId": "506",
+    "en_name": "Costa Rica"
+  },
+  {
+    "cn_name": "古巴",
+    "countryId": "53",
+    "en_name": "Cuba"
+  },
+  {
+    "cn_name": "塞浦路斯",
+    "countryId": "357",
+    "en_name": "Cyprus"
+  },
+  {
+    "cn_name": "捷克",
+    "countryId": "420",
+    "en_name": "Czech Republic"
+  },
+  {
+    "cn_name": "丹麦",
+    "countryId": "45",
+    "en_name": "Denmark"
+  },
+  {
+    "cn_name": "吉布提",
+    "countryId": "253",
+    "en_name": "Djibouti"
+  },
+  {
+    "cn_name": "多米尼加共和国",
+    "countryId": "1890",
+    "en_name": "Dominica Rep"
+  },
+  {
+    "cn_name": "厄瓜多尔",
+    "countryId": "593",
+    "en_name": "Ecuador"
+  },
+  {
+    "cn_name": "埃及",
+    "countryId": "20",
+    "en_name": "Egypt"
+  },
+  {
+    "cn_name": "萨尔瓦多",
+    "countryId": "503",
+    "en_name": "EI Salvador"
+  },
+  {
+    "cn_name": "爱沙尼亚",
+    "countryId": "372",
+    "en_name": "Estonia"
+  },
+  {
+    "cn_name": "埃塞俄比亚",
+    "countryId": "251",
+    "en_name": "Ethiopia"
+  },
+  {
+    "cn_name": "斐济",
+    "countryId": "679",
+    "en_name": "Fiji"
+  },
+  {
+    "cn_name": "芬兰",
+    "countryId": "358",
+    "en_name": "Finland"
+  },
+  {
+    "cn_name": "法国",
+    "countryId": "33",
+    "en_name": "France"
+  },
+  {
+    "cn_name": "法属圭亚那",
+    "countryId": "594",
+    "en_name": "French Guiana"
+  },
+  {
+    "cn_name": "法属玻利尼西亚",
+    "countryId": "689",
+    "en_name": "French Polynesia"
+  },
+  {
+    "cn_name": "加蓬",
+    "countryId": "241",
+    "en_name": "Gabon"
+  },
+  {
+    "cn_name": "冈比亚",
+    "countryId": "220",
+    "en_name": "Gambia"
+  },
+  {
+    "cn_name": "格鲁吉亚",
+    "countryId": "995",
+    "en_name": "Georgia"
+  },
+  {
+    "cn_name": "德国",
+    "countryId": "49",
+    "en_name": "Germany"
+  },
+  {
+    "cn_name": "加纳",
+    "countryId": "233",
+    "en_name": "Ghana"
+  },
+  {
+    "cn_name": "直布罗陀",
+    "countryId": "350",
+    "en_name": "Gibraltar"
+  },
+  {
+    "cn_name": "希腊",
+    "countryId": "30",
+    "en_name": "Greece"
+  },
+  {
+    "cn_name": "格林纳达",
+    "countryId": "1809",
+    "en_name": "Grenada"
+  },
+  {
+    "cn_name": "关岛",
+    "countryId": "1671",
+    "en_name": "Guam"
+  },
+  {
+    "cn_name": "危地马拉",
+    "countryId": "502",
+    "en_name": "Guatemala"
+  },
+  {
+    "cn_name": "几内亚",
+    "countryId": "224",
+    "en_name": "Guinea"
+  },
+  {
+    "cn_name": "圭亚那",
+    "countryId": "592",
+    "en_name": "Guyana"
+  },
+  {
+    "cn_name": "海地",
+    "countryId": "509",
+    "en_name": "Haiti"
+  },
+  {
+    "cn_name": "洪都拉斯",
+    "countryId": "504",
+    "en_name": "Honduras"
+  },
+  {
+    "cn_name": "香港",
+    "countryId": "852",
+    "en_name": "Hongkong"
+  },
+  {
+    "cn_name": "匈牙利",
+    "countryId": "36",
+    "en_name": "Hungary"
+  },
+  {
+    "cn_name": "冰岛",
+    "countryId": "354",
+    "en_name": "Iceland"
+  },
+  {
+    "cn_name": "印度",
+    "countryId": "91",
+    "en_name": "India"
+  },
+  {
+    "cn_name": "印度尼西亚",
+    "countryId": "62",
+    "en_name": "Indonesia"
+  },
+  {
+    "cn_name": "伊朗",
+    "countryId": "98",
+    "en_name": "Iran"
+  },
+  {
+    "cn_name": "伊拉克",
+    "countryId": "964",
+    "en_name": "Iraq"
+  },
+  {
+    "cn_name": "爱尔兰",
+    "countryId": "353",
+    "en_name": "Ireland"
+  },
+  {
+    "cn_name": "以色列",
+    "countryId": "972",
+    "en_name": "Israel"
+  },
+  {
+    "cn_name": "意大利",
+    "countryId": "39",
+    "en_name": "Italy"
+  },
+  {
+    "cn_name": "科特迪瓦",
+    "countryId": "225",
+    "en_name": "Ivory Coast"
+  },
+  {
+    "cn_name": "牙买加",
+    "countryId": "1876",
+    "en_name": "Jamaica"
+  },
+  {
+    "cn_name": "日本",
+    "countryId": "81",
+    "en_name": "Japan"
+  },
+  {
+    "cn_name": "约旦",
+    "countryId": "962",
+    "en_name": "Jordan"
+  },
+  {
+    "cn_name": "柬埔寨",
+    "countryId": "855",
+    "en_name": "Kampuchea (Cambodia )"
+  },
+  {
+    "cn_name": "哈萨克斯坦",
+    "countryId": "327",
+    "en_name": "Kazakstan"
+  },
+  {
+    "cn_name": "肯尼亚",
+    "countryId": "254",
+    "en_name": "Kenya"
+  },
+  {
+    "cn_name": "韩国",
+    "countryId": "82",
+    "en_name": "Korea"
+  },
+  {
+    "cn_name": "科威特",
+    "countryId": "965",
+    "en_name": "Kuwait"
+  },
+  {
+    "cn_name": "吉尔吉斯坦",
+    "countryId": "331",
+    "en_name": "Kyrgyzstan"
+  },
+  {
+    "cn_name": "老挝",
+    "countryId": "856",
+    "en_name": "Laos"
+  },
+  {
+    "cn_name": "拉脱维亚",
+    "countryId": "371",
+    "en_name": "Latvia"
+  },
+  {
+    "cn_name": "黎巴嫩",
+    "countryId": "961",
+    "en_name": "Lebanon"
+  },
+  {
+    "cn_name": "莱索托",
+    "countryId": "266",
+    "en_name": "Lesotho"
+  },
+  {
+    "cn_name": "利比里亚",
+    "countryId": "231",
+    "en_name": "Liberia"
+  },
+  {
+    "cn_name": "利比亚",
+    "countryId": "218",
+    "en_name": "Libya"
+  },
+  {
+    "cn_name": "列支敦士登",
+    "countryId": "",
+    "en_name": "Liechtenstein"
+  },
+  {
+    "cn_name": "立陶宛",
+    "countryId": "370",
+    "en_name": "Lithuania"
+  },
+  {
+    "cn_name": "卢森堡",
+    "countryId": "352",
+    "en_name": "Luxembourg"
+  },
+  {
+    "cn_name": "澳门",
+    "countryId": "853",
+    "en_name": "Macao"
+  },
+  {
+    "cn_name": "马达加斯加",
+    "countryId": "261",
+    "en_name": "Madagascar"
+  },
+  {
+    "cn_name": "马拉维",
+    "countryId": "265",
+    "en_name": "Malawi"
+  },
+  {
+    "cn_name": "马来西亚",
+    "countryId": "60",
+    "en_name": "Malaysia"
+  },
+  {
+    "cn_name": "马尔代夫",
+    "countryId": "960",
+    "en_name": "Maldives"
+  },
+  {
+    "cn_name": "马里",
+    "countryId": "223",
+    "en_name": "Mali"
+  },
+  {
+    "cn_name": "马耳他",
+    "countryId": "356",
+    "en_name": "Malta"
+  },
+  {
+    "cn_name": "马里亚那群岛",
+    "countryId": "1670",
+    "en_name": "Mariana Is"
+  },
+  {
+    "cn_name": "马提尼克",
+    "countryId": "596",
+    "en_name": "Martinique"
+  },
+  {
+    "cn_name": "毛里求斯",
+    "countryId": "230",
+    "en_name": "Mauritius"
+  },
+  {
+    "cn_name": "墨西哥",
+    "countryId": "52",
+    "en_name": "Mexico"
+  },
+  {
+    "cn_name": "摩尔多瓦",
+    "countryId": "373",
+    "en_name": "Moldova"
+  },
+  {
+    "cn_name": "摩纳哥",
+    "countryId": "377",
+    "en_name": "Monaco"
+  },
+  {
+    "cn_name": "蒙古",
+    "countryId": "976",
+    "en_name": "Mongolia"
+  },
+  {
+    "cn_name": "蒙特塞拉特岛",
+    "countryId": "1664",
+    "en_name": "Montserrat Is"
+  },
+  {
+    "cn_name": "摩洛哥",
+    "countryId": "212",
+    "en_name": "Morocco"
+  },
+  {
+    "cn_name": "莫桑比克",
+    "countryId": "258",
+    "en_name": "Mozambique"
+  },
+  {
+    "cn_name": "纳米比亚",
+    "countryId": "264",
+    "en_name": "Namibia"
+  },
+  {
+    "cn_name": "瑙鲁",
+    "countryId": "674",
+    "en_name": "Nauru"
+  },
+  {
+    "cn_name": "尼泊尔",
+    "countryId": "977",
+    "en_name": "Nepal"
+  },
+  {
+    "cn_name": "荷属安的列斯",
+    "countryId": "599",
+    "en_name": "Netheriands Antilles"
+  },
+  {
+    "cn_name": "荷兰",
+    "countryId": "31",
+    "en_name": "Netherlands"
+  },
+  {
+    "cn_name": "新西兰",
+    "countryId": "64",
+    "en_name": "New Zealand"
+  },
+  {
+    "cn_name": "尼加拉瓜",
+    "countryId": "505",
+    "en_name": "Nicaragua"
+  },
+  {
+    "cn_name": "尼日尔",
+    "countryId": "227",
+    "en_name": "Niger"
+  },
+  {
+    "cn_name": "尼日利亚",
+    "countryId": "234",
+    "en_name": "Nigeria"
+  },
+  {
+    "cn_name": "朝鲜",
+    "countryId": "850",
+    "en_name": "North Korea"
+  },
+  {
+    "cn_name": "挪威",
+    "countryId": "47",
+    "en_name": "Norway"
+  },
+  {
+    "cn_name": "阿曼",
+    "countryId": "968",
+    "en_name": "Oman"
+  },
+  {
+    "cn_name": "巴基斯坦",
+    "countryId": "92",
+    "en_name": "Pakistan"
+  },
+  {
+    "cn_name": "巴拿马",
+    "countryId": "507",
+    "en_name": "Panama"
+  },
+  {
+    "cn_name": "巴布亚新几内亚",
+    "countryId": "675",
+    "en_name": "Papua New Cuinea"
+  },
+  {
+    "cn_name": "巴拉圭",
+    "countryId": "595",
+    "en_name": "Paraguay"
+  },
+  {
+    "cn_name": "秘鲁",
+    "countryId": "51",
+    "en_name": "Peru"
+  },
+  {
+    "cn_name": "菲律宾",
+    "countryId": "63",
+    "en_name": "Philippines"
+  },
+  {
+    "cn_name": "波兰",
+    "countryId": "48",
+    "en_name": "Poland"
+  },
+  {
+    "cn_name": "葡萄牙",
+    "countryId": "351",
+    "en_name": "Portugal"
+  },
+  {
+    "cn_name": "波多黎各",
+    "countryId": "1787",
+    "en_name": "Puerto Rico"
+  },
+  {
+    "cn_name": "卡塔尔",
+    "countryId": "974",
+    "en_name": "Qatar"
+  },
+  {
+    "cn_name": "留尼旺",
+    "countryId": "262",
+    "en_name": "Reunion"
+  },
+  {
+    "cn_name": "罗马尼亚",
+    "countryId": "40",
+    "en_name": "Romania"
+  },
+  {
+    "cn_name": "俄罗斯",
+    "countryId": "7",
+    "en_name": "Russia"
+  },
+  {
+    "cn_name": "圣卢西亚",
+    "countryId": "1758",
+    "en_name": "Saint Lueia"
+  },
+  {
+    "cn_name": "圣文森特岛",
+    "countryId": "1784",
+    "en_name": "Saint Vincent"
+  },
+  {
+    "cn_name": "东萨摩亚(美)",
+    "countryId": "684",
+    "en_name": "Samoa Eastern"
+  },
+  {
+    "cn_name": "西萨摩亚",
+    "countryId": "685",
+    "en_name": "Samoa Western"
+  },
+  {
+    "cn_name": "圣马力诺",
+    "countryId": "378",
+    "en_name": "San Marino"
+  },
+  {
+    "cn_name": "圣多美和普林西比",
+    "countryId": "239",
+    "en_name": "Sao Tome and Principe"
+  },
+  {
+    "cn_name": "沙特阿拉伯",
+    "countryId": "966",
+    "en_name": "Saudi Arabia"
+  },
+  {
+    "cn_name": "塞内加尔",
+    "countryId": "221",
+    "en_name": "Senegal"
+  },
+  {
+    "cn_name": "塞舌尔",
+    "countryId": "248",
+    "en_name": "Seychelles"
+  },
+  {
+    "cn_name": "塞拉利昂",
+    "countryId": "232",
+    "en_name": "Sierra Leone"
+  },
+  {
+    "cn_name": "新加坡",
+    "countryId": "65",
+    "en_name": "Singapore"
+  },
+  {
+    "cn_name": "斯洛伐克",
+    "countryId": "421",
+    "en_name": "Slovakia"
+  },
+  {
+    "cn_name": "斯洛文尼亚",
+    "countryId": "386",
+    "en_name": "Slovenia"
+  },
+  {
+    "cn_name": "所罗门群岛",
+    "countryId": "677",
+    "en_name": "Solomon Is"
+  },
+  {
+    "cn_name": "索马里",
+    "countryId": "252",
+    "en_name": "Somali"
+  },
+  {
+    "cn_name": "南非",
+    "countryId": "27",
+    "en_name": "South Africa"
+  },
+  {
+    "cn_name": "西班牙",
+    "countryId": "34",
+    "en_name": "Spain"
+  },
+  {
+    "cn_name": "斯里兰卡",
+    "countryId": "94",
+    "en_name": "SriLanka"
+  },
+  {
+    "cn_name": "圣卢西亚",
+    "countryId": "1758",
+    "en_name": "St.Lucia"
+  },
+  {
+    "cn_name": "圣文森特",
+    "countryId": "1784",
+    "en_name": "St.Vincent"
+  },
+  {
+    "cn_name": "苏丹",
+    "countryId": "249",
+    "en_name": "Sudan"
+  },
+  {
+    "cn_name": "苏里南",
+    "countryId": "597",
+    "en_name": "Suriname"
+  },
+  {
+    "cn_name": "斯威士兰",
+    "countryId": "268",
+    "en_name": "Swaziland"
+  },
+  {
+    "cn_name": "瑞典",
+    "countryId": "46",
+    "en_name": "Sweden"
+  },
+  {
+    "cn_name": "瑞士",
+    "countryId": "41",
+    "en_name": "Switzerland"
+  },
+  {
+    "cn_name": "叙利亚",
+    "countryId": "963",
+    "en_name": "Syria"
+  },
+  {
+    "cn_name": "台湾省",
+    "countryId": "886",
+    "en_name": "Taiwan"
+  },
+  {
+    "cn_name": "塔吉克斯坦",
+    "countryId": "992",
+    "en_name": "Tajikstan"
+  },
+  {
+    "cn_name": "坦桑尼亚",
+    "countryId": "255",
+    "en_name": "Tanzania"
+  },
+  {
+    "cn_name": "泰国",
+    "countryId": "66",
+    "en_name": "Thailand"
+  },
+  {
+    "cn_name": "多哥",
+    "countryId": "228",
+    "en_name": "Togo"
+  },
+  {
+    "cn_name": "汤加",
+    "countryId": "676",
+    "en_name": "Tonga"
+  },
+  {
+    "cn_name": "特立尼达和多巴哥",
+    "countryId": "1809",
+    "en_name": "Trinidad and Tobago"
+  },
+  {
+    "countryCode":"TN",
+    "cn_name": "突尼斯",
+    "countryId": "216",
+    "en_name": "Tunisia"
+  },
+  {
+    "cn_name": "土耳其",
+    "countryId": "90",
+    "en_name": "Turkey"
+  },
+  {
+    "cn_name": "土库曼斯坦",
+    "countryId": "993",
+    "en_name": "Turkmenistan"
+  },
+  {
+    "cn_name": "乌干达",
+    "countryId": "256",
+    "en_name": "Uganda"
+  },
+  {
+    "cn_name": "乌克兰",
+    "countryId": "380",
+    "en_name": "Ukraine"
+  },
+  {
+    "cn_name": "阿拉伯联合酋长国",
+    "countryId": "971",
+    "en_name": "United Arab Emirates"
+  },
+  {
+    "cn_name": "英国",
+    "countryId": "44",
+    "en_name": "United Kiongdom"
+  },
+  {
+    "countryCode": "US",
+    "cn_name": "美国",
+    "countryId": "1",
+    "en_name": "America"
+  },
+  {
+    "cn_name": "乌拉圭",
+    "countryId": "598",
+    "en_name": "Uruguay"
+  },
+  {
+    "cn_name": "乌兹别克斯坦",
+    "countryId": "233",
+    "en_name": "Uzbekistan"
+  },
+  {
+    "cn_name": "委内瑞拉",
+    "countryId": "58",
+    "en_name": "Venezuela"
+  },
+  {
+    "cn_name": "越南",
+    "countryId": "84",
+    "en_name": "Vietnam"
+  },
+  {
+    "cn_name": "也门",
+    "countryId": "967",
+    "en_name": "Yemen"
+  },
+  {
+    "cn_name": "南斯拉夫",
+    "countryId": "381",
+    "en_name": "Yugoslavia"
+  },
+  {
+    "cn_name": "津巴布韦",
+    "countryId": "263",
+    "en_name": "Zimbabwe"
+  },
+  {
+    "cn_name": "扎伊尔",
+    "countryId": "243",
+    "en_name": "Zaire"
+  },
+  {
+    "cn_name": "赞比亚",
+    "countryId": "260",
+    "en_name": "Zambia"
+  }
+]

@@ -1,0 +1,136 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.jakewharton.butterknife'
+apply plugin: 'me.tatarka.retrolambda'
+apply plugin: 'org.greenrobot.greendao'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.3"
+    defaultConfig {
+        applicationId "com.nexgo.xtms"
+        minSdkVersion 18
+        targetSdkVersion 22
+        versionCode 35
+        versionName "1.2.15"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+
+    // Lambda表达式需要Java1.8支持
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    sourceSets {
+        main {
+            java.srcDirs = ['src/main/java']
+            res.srcDirs = ['src/main/res']
+            assets.srcDirs = ['src/main/assets']
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+
+    greendao {
+        schemaVersion 1013
+        daoPackage 'com.nexgo.xtms.database'
+        targetGenDir 'src/main/java'
+    }
+
+    configurations.all {
+        resolutionStrategy.force 'com.google.code.findbugs:jsr305:1.3.9'
+    }
+
+    //配置自定义打包名称
+    applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            def outputFile = output.outputFile
+            def fileName
+            if (outputFile != null && outputFile.name.endsWith('.apk')) {
+                if (variant.buildType.name.equals('release')) {
+                    variant.mergedFlavor.versionName = android.defaultConfig.versionName
+                    fileName = "XTMS_${variant.mergedFlavor.versionName}_release.apk"
+                } else if (variant.buildType.name.equals('debug')) {
+                    variant.mergedFlavor.versionName = android.defaultConfig.versionName + "_" + releaseTime()
+                    fileName = "XTMS_${variant.mergedFlavor.versionName}_debug.apk"
+                }
+                output.outputFile = new File(outputFile.parent, fileName)
+            }
+        }
+    }
+}
+
+//定义时间
+def releaseTime() {
+    return new Date().format("yyyyMMdd", TimeZone.getTimeZone("UTC"))
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    testCompile 'org.mockito:mockito-core:2.8.47'
+    testCompile 'org.robolectric:robolectric:3.3.2'
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.android.support:design:25.3.1'
+    testCompile 'junit:junit:4.12'
+    // xrecyclerview
+    compile 'com.jcodecraeer:xrecyclerview:1.3.2'
+    // butterknife
+    compile 'com.jakewharton:butterknife:8.6.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.6.0'
+    // rxlifecycle2
+    compile 'com.trello.rxlifecycle2:rxlifecycle-components:2.1.0'
+    compile 'com.trello.rxlifecycle2:rxlifecycle:2.1.0'
+    compile 'com.trello.rxlifecycle2:rxlifecycle-android:2.1.0'
+    // rxjava2
+    compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    // retrofit2
+    compile 'com.squareup.retrofit2:retrofit:2.3.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.3.0'
+    compile 'com.jakewharton.retrofit:retrofit2-rxjava2-adapter:1.0.0'
+    // okhttp3
+    compile 'com.squareup.okhttp3:logging-interceptor:3.8.0'
+    compile 'com.squareup.okhttp3:okhttp:3.8.0'
+    // greendao
+    compile 'org.greenrobot:greendao:3.2.2'
+    compile 'org.greenrobot:greendao-generator:3.2.2'
+    // 内存泄漏监视
+    //    debugCompile 'com.squareup.leakcanary:leakcanary-android:1.5'
+    //    releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.5'
+    //    testCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.5'
+    // eventbus
+    compile 'org.greenrobot:eventbus:3.0.0'
+    // glide图片加载
+    compile 'com.github.bumptech.glide:glide:4.0.0-RC1'
+    // nexgo sdk
+    compile files('libs/nexgosdk-2.0.0.jar')
+    // download lib
+    compile 'com.liulishuo.filedownloader:library:1.6.7'
+    // logback
+    compile 'org.slf4j:slf4j-api:1.7.21'
+    compile 'com.github.tony19:logback-android-core:1.1.1-6'
+    compile 'com.github.tony19:logback-android-classic:1.1.1-6'
+    // timedialog
+    compile 'com.jzxiang.pickerview:TimePickerDialog:1.0.1'
+    compile files('libs/BaiduLBS_Android.jar')
+//    compile project(path: ':library')
+    //GoogleMapServices
+//    compile 'com.google.android.gms:play-services-maps:11.0.0'
+}

@@ -1,0 +1,134 @@
+<resources>
+    <string name="app_name">xtms</string>
+
+    <!--module name-->
+    <string name="log">Log</string>
+    <string name="home">Home</string>
+    <string name="update">Update</string>
+    <string name="update_server">Update Server</string>
+    <string name="download">Download</string>
+    <string name="setting">Setting</string>
+
+
+    <!--tip-->
+    <string name="not_wifi_if_continue_dowload">No wifi,Continue dowload?</string>
+    <string name="low_power_tip">Battery Power Lower Than 50%,Please Upgrade After Recharge！</string>
+
+    <string name="prompt">Prompt</string>
+
+    <string name="download_with_gprs">Continue Download</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+
+
+    <string name="otarequestupdata">OTA Request Update</string>
+
+    <string name="install_fail">Install Fail</string>
+    <string name="user_not_permision">No User Permision</string>
+
+    <string name="md5check_erro">MD5 Check Error</string>
+    <string name="dowload_erro">Download Error</string>
+
+    <string name="apkupdatainf">Apps Need Update</string>
+
+    <string name="lowpower">Low Power</string>
+
+    <string name="sdcardnotenough">SD Card Insufficient Capacity</string>
+
+    <string name="test_tip">test tips</string>
+
+    <string name="start_update">Start Update</string>
+
+    <string name="loading">Loading ...</string>
+    <string name="no_update">No Update</string>
+    <string name="no_internet">No Internet</string>
+    <string name="update_finish">Update Finish</string>
+    <string name="installing">Installing</string>
+    <string name="update_btn">Update</string>
+    <string name="download_fail">Download Fail</string>
+    <string name="progress_title">Download Progress</string>
+    <string name="no_task">No Task</string>
+    <string name="install">Install</string>
+    <string name="download_stop">DownLoad Stop</string>
+    <string name="download_finish">Download Finish</string>
+    <string name="continue_download">Continue Download</string>
+    <string name="downloading">Downloading</string>
+    <string name="wifi_tips">please download in wifi state</string>
+    <string name="reboot_now_tip">Time To Reboot,Do it Now?</string>
+    <string name="reboot">Reboot</string>
+
+    <string name="retry">Retry</string>
+    <string name="add">Add</string>
+    <string name="add_country_tip">Please Add Country Name \n (e.g. USA)</string>
+    <string name="add_domain_url_tip">Please Add Domain Url \n (e.g. http://www.google.com:80/)</string>
+    <string name="add_ip_url_tip">Please Add Ip Url \n (e.g. https://192.168.1.1:8080/)</string>
+    <string name="add_company_tip">Please Add Company Name \n (e.g. Nexgo)</string>
+    <string name="empty_tip">Content Is Empty,Add Server Fail!</string>
+    <string name="server_title">Upgrade Servers</string>
+    <string name="add_new_server">Add New Server</string>
+    <string name="delete_default_server_tip">Default Server Can\'t Delete</string>
+    <string name="confirm_delete">Confirm Delete</string>
+    <string name="tip">Tip</string>
+    <string name="check_install_tip">Check or Install has already executed.</string>
+    <string name="check_update_task">Update task is checked,please update online</string>
+    <string name="net_4G_error">No Wifi ,Please Check ..</string>
+
+    <!--country-->
+    <string name="default_">Default</string>
+    <string name="china">China</string>
+    <string name="america">America</string>
+
+    <!--Logs-->
+    <string name="check_net_status">Check Net Status</string>
+    <string name="net_available">Net Available</string>
+    <string name="delete_outdated_tasks">Delete Outdated Tasks</string>
+    <string name="create_download_folder">Create Download Folder</string>
+    <string name="create_download_task">Create Download Task</string>
+    <string name="continue_download_task">Continue Download Task</string>
+    <string name="check_md5_fail">Check Md5 Fail</string>
+    <string name="check_update_start">Check Update Start</string>
+    <string name="net_error">Net Error!Please Retry Connect..</string>
+    <string name="add_url_tip">Add Either Domain Or Ip Will Be OK,Domain Url Work First.</string>
+    <string name="server_tip">Long Click On Item Can Delete Servers，Except The Default.</string>
+
+    <!--list-->
+    <string name="pause">Pause</string>
+    <string name="connectting">Connectting...</string>
+    <string name="connectted">Connectted</string>
+    <string name="connect_error">Connect Error</string>
+    <string name="retry_install">Retry Install</string>
+    <string name="install_finished">Install Finished</string>
+    <string name="checking">Checking...</string>
+
+
+    <!--Detail-->
+    <string name="detail">Detail</string>
+
+    <!--Setting-->
+    <string name="silent_download">Silent Download</string>
+    <string name="not_wifi_download">No WiFi Download</string>
+    <string name="download_setting">Download Setting</string>
+    <string name="silent_download_tip">Silent Download Will Allow Application Download In Background When Online Update is Required</string>
+    <string name="no_wifi_download_tip">No WiFi Download Will Allow Application Download Without WiFi Environment</string>
+    <string name="reboot_setting">Reboot Setting</string>
+    <string name="log_manager">Log Manager</string>
+    <string name="continue_">Continue</string>
+    <string name="time_setting">Time Setting</string>
+    <string name="day_circulate_setting">Day Circulete</string>
+    <string name="not_set">No Setting</string>
+    <string name="reboot_switch_tip">Auto Reboot Active</string>
+    <string name="close">Close</string>
+    <string name="open">Open</string>
+    <string name="hour">&#160;Hour</string>
+    <string name="minute">&#160;Minute</string>
+    <string name="version">Version</string>
+    <string name="reboot_time_setting">RebootTimeSetting</string>
+    <string name="url_illegal">Server url config is illegal,please check</string>
+    <string name="reboot_time_tip">(%1$d)Seconds Reboot</string>
+    <string name="update_time">UpdateTime : %s</string>
+    <string name="update_version">Version : %s</string>
+    <string name="unknown">Unknown</string>
+    <string name="language_setting">LanguageSetting</string>
+
+</resources>

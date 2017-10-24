@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="actionbar_color">#5A9AEF</color>
+    <color name="white">#FFFFFF</color>
+    <!--update button-->
+    <color name="update_button_common">#3F51B5</color>
+    <color name="update_button_disable">#33555555</color>
+
+    <!--recyclerview-->
+    <color name="Grey_800">#55424242</color>
+    <color name="Grey_900">#212121</color>
+</resources>

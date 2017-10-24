@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">aaaaaaaa</string>
+
+    <!--module name-->
+    <string name="log">aaa</string>
+    <string name="home">bbb</string>
+    <string name="update">ccc</string>
+    <string name="update_server">ddd</string>
+    <string name="download">eeee</string>
+    <string name="setting">fff</string>
+
+
+</resources>

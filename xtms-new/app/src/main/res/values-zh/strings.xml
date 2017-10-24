@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">xtms</string>
+
+    <!--模块名称-->
+    <string name="log">日志</string>
+    <string name="home">主页</string>
+    <string name="update">更新</string>
+    <string name="update_server">更新服务器</string>
+    <string name="download">下载</string>
+    <string name="setting">设置</string>
+
+    <!--提示-->
+    <string name="not_wifi_if_continue_dowload">当前网络非wifi，是否需要继续升级任务?</string>
+    <string name="prompt">提示</string>
+    <string name="download_with_gprs">继续下载</string>
+    <string name="cancel">取消</string>
+    <string name="ok">确定</string>
+    <string name="otarequestupdata">系统请求更新</string>
+    <string name="install_fail"> 安装失败</string>
+    <string name="user_not_permision"> 用户不允许安装</string>
+    <string name="md5check_erro">MD5校验失败</string>
+    <string name="dowload_erro">下载失败</string>
+    <string name="apkupdatainf">需要升级的应用</string>
+    <string name="lowpower">低电量</string>
+    <string name="low_power_tip">电量低于50%，请充电后升级！</string>
+    <string name="sdcardnotenough">SD卡容量不足，请先清理</string>
+    <string name="test_tip">测试流程提示</string>
+    <string name="start_update">开始更新</string>
+    <string name="loading">正在加载中……</string>
+    <string name="no_update">没有更新</string>
+    <string name="no_internet">无网络</string>
+    <string name="update_finish">更新完成</string>
+
+    <string name="reboot_now_tip">是否现在进行设备重启？</string>
+    <string name="check_update_task">设备检测到更新，请进行在线更新!</string>
+    <string name="url_illegal">服务器地址非法，请检查设置</string>
+    <string name="net_4G_error">无WiFi，请检查网络..</string>
+
+    <!--下载状态-->
+    <string name="update_btn">更新</string>
+    <string name="download_fail">下载失败</string>
+    <string name="progress_title">下载进度</string>
+    <string name="download_stop">下载停止</string>
+    <string name="no_task">无下载任务</string>
+    <string name="install">安装</string>
+    <string name="installing">"安装中..."</string>
+    <string name="download_finish">下载完成</string>
+    <string name="continue_download">继续下载</string>
+    <string name="downloading">下载中...</string>
+    <string name="wifi_tips">请在WiFi状态下下载</string>
+    <string name="reboot">重启</string>
+
+    <string name="retry">重试</string>
+    <string name="add">添加</string>
+    <string name="add_country_tip">请输入国家 \n (例如：中国)</string>
+    <string name="add_domain_url_tip">请输入域名地址 \n (例如：http://www.baidu.com:80/)</string>
+    <string name="add_ip_url_tip">请输入Ip地址 \n (例如：https://192.168.1.1:8080/)</string>
+    <string name="add_company_tip">请输入公司名称 \n (例如：新国都)</string>
+
+
+    <string name="empty_tip">内容为空，服务器添加失败！</string>
+    <string name="server_title">更新服务器</string>
+    <string name="add_new_server">添加新的服务器</string>
+    <string name="delete_default_server_tip">不能删除默认服务器</string>
+    <string name="confirm_delete">确认删除吗？</string>
+    <string name="tip">提示</string>
+    <string name="check_install_tip">校验或安装正在执行</string>
+
+    <!--国家-->
+    <string name="china">中国</string>
+    <string name="america">美国</string>
+    <string name="default_">默认</string>
+
+    <!--Log日志-->
+    <string name="check_net_status">检查网络状态</string>
+    <string name="net_available">网络可用</string>
+    <string name="delete_outdated_tasks">清除过期任务</string>
+    <string name="create_download_folder">创建下载文件夹</string>
+    <string name="create_download_task">创建下载任务</string>
+    <string name="continue_download_task">继续未完成的任务</string>
+    <string name="check_md5_fail">MD5校验失败</string>
+    <string name="check_update_start">开始检查更新</string>
+    <string name="net_error">网络异常，请重试连接..</string>
+    <string name="add_url_tip">域名或IP地址选一添加即可，优先采用域名地址。</string>
+    <string name="server_tip">长按可删除更新服务器，默认地址不可删除</string>
+
+    <!--列表-->
+    <string name="pause">暂停</string>
+    <string name="connectting">连接中...</string>
+    <string name="connectted">已连接</string>
+    <string name="connect_error">连接异常</string>
+    <string name="retry_install">重试安装</string>
+    <string name="install_finished">安装完成</string>
+    <string name="checking">校验中...</string>
+
+    <!--详情-->
+    <string name="detail">详情</string>
+
+    <!--设置-->
+    <string name="silent_download">静默下载</string>
+    <string name="not_wifi_download">无WiFi时下载</string>
+    <string name="download_setting">下载设置</string>
+    <string name="silent_download_tip">静默下载允许应用在需要在线更新时进行后台下载</string>
+    <string name="no_wifi_download_tip">无WiFi下载允许应用在无WiFi环境下进行下载</string>
+    <string name="reboot_setting">重启设置</string>
+    <string name="log_manager">日志管理</string>
+    <string name="continue_">继续下载</string>
+    <string name="time_setting">时间设置</string>
+    <string name="day_circulate_setting">每天循环</string>
+    <string name="not_set">未设置</string>
+    <string name="reboot_switch_tip">自动重启激活</string>
+    <string name="close">未开启</string>
+    <string name="open">开启</string>
+    <string name="hour">&#160;点</string>
+    <string name="minute">&#160;分</string>
+    <string name="version">当前版本</string>
+    <string name="reboot_time_setting">重启时间设置</string>
+    <string name="reboot_time_tip">(%1$d)秒后重启</string>
+    <string name="update_time">更新时间 ： %s</string>
+    <string name="update_version">当前版本 ： %s</string>
+    <string name="unknown">未知</string>
+    <string name="language_setting">语言设置</string>
+
+
+</resources>
